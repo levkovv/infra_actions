@@ -54,7 +54,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: levkovv/infa:latest
+          tags: levkovv/infra:latest
   
   deploy:
     runs-on: ubuntu-latest
